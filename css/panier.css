@@ -1,0 +1,330 @@
+﻿@font-face
+{
+    font-family:"Poppins-Regular";
+    src: url("police/Poppins-Regulars");
+    font-family: "Raleway-Regular";
+    src: url("police/Raleway-Regular.ttf")
+}
+
+body {line-height:1.5;
+    font-family: "Poppins-Regular", Times, serif, arial, sans-serif;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+/* header*/
+
+
+
+div.promo {background-color: black;
+         
+            }
+p#promo {color: rgb(255, 255, 255);
+        text-align:center;
+        text-transform: uppercase;
+        margin-top: 0;
+        font-size: 14px;
+          font-weight: 400;
+          height: 12px;
+          line-height: 24px;
+          letter-spacing: 1.1px;
+         }
+a#promo1{color:white;}
+.logo{align-self: center;
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.nav{
+    align-items: center;
+    margin-top: 1%;
+   
+    
+    }
+.lnav{
+    text-decoration: none;
+    color:black;
+    font-family: "Raleway-Regular";
+    margin: 3%;
+
+    
+   
+   
+        }
+
+.lvnav1{text-align:center;
+    
+
+    }
+
+a.lnav:hover {
+        color: #ffa726;
+    }
+
+#connect{
+    float:right;
+    margin-left:01%;
+    margin-right: 01%;
+    width:1.5% ;
+    height:02% ;
+        }
+
+img#panier{
+    float:right;
+    width:1.5% ;
+    height:01% ;
+    }/*fin header*/
+
+/*panier*/
+h1{
+    text-align:center;
+    border-bottom: 1px solid gray;
+   padding:1%;
+}
+
+.panier{
+    margin-right: 17%;
+    margin-top: 2%;
+    margin-left: 17%;
+
+
+}
+img{
+    width: 55%;
+    text-align: center;
+}
+.prix{
+    padding-left: 16.5%;
+}
+.qté{
+    padding-left: 11%;
+}
+.prixx{
+    padding-left: 4%;
+    width: 30%;
+}
+input{
+    width: 40%
+
+}
+.image{
+    text-align: center;
+}
+.produit{
+    padding-right: 11%;
+}
+.article-color,.article-color1,.article-color2{
+    margin-bottom: 1%;
+}
+.article-color{
+color: brown;
+}
+.article-color1{
+    color: #808000;
+ }
+ .article-color2{
+    color: gold;
+ }
+.delete{
+margin-top: 1%;
+color: rgba(128, 128, 128, 1);
+}
+.delete:hover{
+    color:  rgba(0, 17, 36, 1);
+}
+.art-name{
+    margin-bottom: 27%;
+}
+.quantité{
+    text-align: center;
+}
+.pro-qté-prix{
+    border-bottom: 1px solid gray;
+}
+.hr-margin{
+    padding-left: 7.2%;
+}
+
+/*fin panier*/
+
+/*total*/
+#total{
+    padding-left: 55%;
+}
+#p-total{
+    padding-left:4%; 
+}
+button{
+    background-color: gray;
+
+}
+span{
+    color: white;
+}
+
+.total-p{
+    font-size: 120%;
+}
+/*fin*/
+
+
+
+/*<!--30%off monochest n+1page-->*/
+.monochest{
+    margin-top: 3%;
+    background-image: url("background/red.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 11% 0 8% 0;
+}
+.text_monochest{
+    margin-left: 8%;
+    width: 20%;
+}
+#t-monochest{
+    margin-top: 15%;
+    font-size: 1.1em;   
+}
+
+
+
+/*<!--30%off monochest n+1page-->
+/* footer*/
+footer{
+    
+    background: gray;
+    color: white;   
+    
+}
+
+.container-footer-all{
+   
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+   
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+/*fin footer*/
+
+
+
